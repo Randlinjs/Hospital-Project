@@ -1,0 +1,19 @@
+.TopNav{
+    background-color: #1783A1;
+}
+.TopDiv{
+    background-color: white;
+    color: black;
+    border-radius: 27px;
+}
+.TopDivSvg{
+    background-color: #1783A1;
+    display: inline-block;
+    margin: 2px;
+    padding: 1px;
+    border-radius: 50%;
+}
+.TopDivSvgMsg{
+    display: inline-block;
+    
+}
