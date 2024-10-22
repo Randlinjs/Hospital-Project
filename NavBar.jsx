@@ -15,9 +15,6 @@ const NavBar = () => {
     setSidebarOpen(false);
   };
 
-// ---------------------------------------------------------------------------------------------------------------------------------
-
-// ---------------------------------------------------------------------------------------------------------------------------------
   return (
     <div className='container-fluid'>
       <div className="wholeNav">
@@ -73,7 +70,7 @@ C58.066,53.48,58.066,54.52,57.293,55.293z" fill="white" /><path d="M33.546,14.45
             <img src={menuIcon} alt="Menu" style={{ width: '30px', height: '30px' }} />
           </button>
         </nav>
-        {/* Sidebar for mobile view */}
+        {/* Sidebar for tab and mobile view */}
       <div className={`sidebar ${sidebarOpen ? 'open' : ''}`}>
         <div className="sidebar-content">
           <button onClick={closeSidebar} className="close-btn">
@@ -84,7 +81,7 @@ C58.066,53.48,58.066,54.52,57.293,55.293z" fill="white" /><path d="M33.546,14.45
             <li><Link to="/about">About</Link></li>
             <li><Link to="/departments">Departments</Link></li>
             <li><Link to="/contact-us">Contact us</Link></li>
-            <li>
+            <li className='bookApp'>
                 <Link to="/book-appointment" className="nav-link">
                   <div className='topDiv'>
                     <div className='topSvgDiv'>
@@ -97,7 +94,7 @@ C58.066,53.48,58.066,54.52,57.293,55.293z" fill="white" /><path d="M33.546,14.45
                   </div>
                 </Link>
               </li>
-              <li>
+              <li className='searchDoc'>
                 <div className='topDiv'>
                   <div className='topSvgDiv searchSvgDiv'>
                     {/* <?xml version="1.0" ? */}

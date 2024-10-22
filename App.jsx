@@ -23,6 +23,19 @@ function App() {
         
       </Routes>
     </Router>
+  //   <Router>
+  //   <Routes>
+  //     {/* Parent Route */}
+  //     <Route path="/" element={<NavBar />}>
+  //       {/* Child Routes */}
+  //       <Route index element={<Home />} /> {/* The index route renders by default at the parent path */}
+  //       <Route path="book-appointment" element={<BookAppointment />} />
+  //       <Route path="departments" element={<Departments />} />
+  //       <Route path="about" element={<About />} />
+  //       <Route path="contact-us" element={<Contact />} />
+  //     </Route>
+  //   </Routes>
+  // </Router>
   );
 }
 export default App;

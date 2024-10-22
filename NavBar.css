@@ -1,10 +1,12 @@
 .container-fluid {
   background-color: #1783A1;
   font-family: 'Verdana', sans-serif;
+  /* position: fixed; */
 }
 
 .wholeNav {
   background-color: #1783A1;
+  
 }
 .topNavLogo{
   margin-left: 3%;
@@ -58,7 +60,7 @@
 }
 
 .search{
-  margin-left: 2%;
+  margin-left: 1.5%;
   margin-top: 1%;
 }
 .searchSvgDiv {
@@ -110,10 +112,9 @@
   padding: 0;
   margin: 0;
 }
-.sidebar-content ul li {
-  margin: 20px 0;
-}
 .sidebar-content ul li a {
+  margin: 20px 0;
+  border-bottom: 1px solid #333 ;
   color: white;
   text-decoration: none;
   font-size: 16px;
@@ -133,7 +134,10 @@
   top: 10px;
   right: 10px;
 }
-@media (min-width: 769px){
+
+
+
+@media screen and (min-width: 769px){
 .menuBarBtn{
   display: none;
 }
